@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Subway Passenger Counter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="counter-container">
+            <h1 class="counter-text">People entered :</h1>
+            <p id="counter-number">0</p>
+        </div>
+        <div class="button-container">
+            <button id="increment-btn" onclick="increment()">Increment</button>
+            <button id="decrement-btn" onclick="decrement()">Decrement</button>
+            <button type="button" id="save-btn" onclick="save()">Save</button>
+        </div>
+        <p id="save-el">Previous entries:</p>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
